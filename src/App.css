@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 .Profile-pic{
   height: 200px;
@@ -8,4 +9,16 @@
   border-radius: 50%;
 
 }
-
+.counter-container{
+  margin-bottom: 10px;
+  width: min-content;
+  margin:20px auto;
+}
+.counter-button-container{
+  display:flex;
+  justify-content: flex-end;
+  column-gap: 10px;
+}
+.counter-progress{
+  width:300px;
+}
