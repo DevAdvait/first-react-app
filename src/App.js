@@ -39,7 +39,6 @@ function Counter() {
   // let like = 10;
   const [like, setlike] = useState(0);
   const [dislike, setdislike] = useState(0);
-  
 
   return (
     <div className="counter-container">
@@ -48,8 +47,7 @@ function Counter() {
         className="counter-progress"
         value={(like / (like + dislike)) * 100}
         max="100"
-      >        
-      </progress>
+      ></progress>
 
       <div className="counter-button-container">
         <button
@@ -68,7 +66,7 @@ function Counter() {
           👎 {dislike}
         </button>
       </div>
-      <hr>  </hr>
+      <hr> </hr>
     </div>
   );
 }

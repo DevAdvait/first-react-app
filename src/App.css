@@ -1,24 +1,22 @@
 .App {
   text-align: center;
-  
 }
-.Profile-pic{
+.Profile-pic {
   height: 200px;
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 50%;
-
 }
-.counter-container{
+.counter-container {
   margin-bottom: 10px;
   width: min-content;
-  margin:20px auto;
+  margin: 20px auto;
 }
-.counter-button-container{
-  display:flex;
+.counter-button-container {
+  display: flex;
   justify-content: flex-end;
   column-gap: 10px;
 }
-.counter-progress{
-  width:300px;
+.counter-progress {
+  width: 300px;
 }
