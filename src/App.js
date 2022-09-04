@@ -66,7 +66,6 @@ function Counter() {
           👎 {dislike}
         </button>
       </div>
-      <hr> </hr>
     </div>
   );
 }
